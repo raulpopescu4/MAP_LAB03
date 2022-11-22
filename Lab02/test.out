@@ -1,0 +1,192 @@
+Execution stack: 
+[(varf string;(varf = test.in;(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))))))]
+Symbols table: 
+{}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varf = test.in;(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))))), varf string]
+Symbols table: 
+{}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varf = test.in;(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))))))))]
+Symbols table: 
+{varf=}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))))))), varf = test.in]
+Symbols table: 
+{varf=}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))))]
+Symbols table: 
+{varf=test.in}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))), OpenReadFile(varf)]
+Symbols table: 
+{varf=test.in}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varf string;(varf = src/test.in;(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))))))]
+Symbols table: 
+{}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varf = src/test.in;(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))))), varf string]
+Symbols table: 
+{}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varf = src/test.in;(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))))))))]
+Symbols table: 
+{varf=}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))))))), varf = src/test.in]
+Symbols table: 
+{varf=}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(OpenReadFile(varf);(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))))]
+Symbols table: 
+{varf=src/test.in}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))), OpenReadFile(varf)]
+Symbols table: 
+{varf=src/test.in}
+Output values: 
+[]
+File table: 
+{}
+Execution stack: 
+[(varc int;(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))))))]
+Symbols table: 
+{varf=src/test.in}
+Output values: 
+[]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))))), varc int]
+Symbols table: 
+{varf=src/test.in}
+Output values: 
+[]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(ReadFileStatement(varf, varc);(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))))]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))), ReadFileStatement(varf, varc)]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(print(varc);(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))))]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf))), print(varc)]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(ReadFileStatement(varf, varc);(print(varc);CloseReadFileStatement(varf)))]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[0]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(print(varc);CloseReadFileStatement(varf)), ReadFileStatement(varf, varc)]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[0]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[(print(varc);CloseReadFileStatement(varf))]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[0]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[CloseReadFileStatement(varf), print(varc)]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[0]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[CloseReadFileStatement(varf)]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[0, 0]
+File table: 
+{src/test.in=java.io.BufferedReader@4d76f3f8}
+Execution stack: 
+[]
+Symbols table: 
+{varf=src/test.in, varc=0}
+Output values: 
+[0, 0]
+File table: 
+{}
